@@ -1,4 +1,5 @@
 # Sheep and Wolf - Patrol Strategy Pattern
+![Java](https://img.shields.io/badge/Language-Java-orange.svg)
 ## Intro
 This project uses Strategy Pattern to replicate a simple game, let's call it <b>Sheep and Wolf</b>. There are two main types of characters, Sheep and Wolf (and one sub-character, Tiger). I have created a strategy pattern. Each character will have a "sight radius" and so they might not see the other characters unless they are close enough.  The behaviour of the character will then depend on exactly what other characters it can see.
 
