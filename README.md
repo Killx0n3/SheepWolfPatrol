@@ -1,5 +1,6 @@
 # Sheep and Wolf - Patrol Strategy Pattern
 ![Java](https://img.shields.io/badge/Language-Java-orange.svg)
+
 ## Intro
 This project uses Strategy Pattern to replicate a simple game, let's call it <b>Sheep and Wolf</b>. There are two main types of characters, Sheep and Wolf (and one sub-character, Tiger). I have created a strategy pattern. Each character will have a "sight radius" and so they might not see the other characters unless they are close enough.  The behaviour of the character will then depend on exactly what other characters it can see.
 
@@ -16,6 +17,13 @@ Tiger roams around randomly but if it sees Shepherd in 5 squares range, then it 
 Strategy Pattern is one of the best algorithms. This project shows how strategy pattern can be really useful in a situation like this. We are using characters’ behaviours to to determine what characters should do. By using strategy pattern, we are using all behaviours’ algorithm interchangeably. Strategy Pattern is mostly used to create an interchangeable family of algorithms from which the required process is chosen at run-time. There are undesirable interactions between patterns.
 
 
-## About Me
-I am TanVir Hossain. I am a Software Engineer.
+## Author
+#### M TanVir Hossain
+
+Software Engineer
+
+Sydney, Australia
+
+Email: hossain.tanvir.m@gmail.com
+
 Originally this project was done by me in October, 2016. 
