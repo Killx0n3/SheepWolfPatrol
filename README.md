@@ -2,7 +2,7 @@
 ![Java](https://img.shields.io/badge/Language-Java-orange.svg)
 
 ## Intro
-This project uses Strategy Pattern to replicate a simple game, let's call it <b>Sheep and Wolf</b>. There are two main types of characters, Sheep and Wolf (and one sub-character, Tiger). I have created a strategy pattern. Each character will have a "sight radius" and so they might not see the other characters unless they are close enough.  The behaviour of the character will then depend on exactly what other characters it can see.
+This project uses Strategy Pattern to create a simple game, let's call it <b>Sheep and Wolf</b>. There are two main types of characters, Sheep and Wolf (and one sub-character, Tiger). I have created a strategy pattern. Each character will have a "sight radius" and so they might not see the other characters unless they are close enough.  The behaviour of the character will then depend on exactly what other characters it can see.
 
 ## Feature One
 Each character (besides the shepherd who is you and can see the whole field) can see 5 squares away in any direction (this includes diagonals). The sheep and wolf will move randomly when they can't see anyone else.  A sheep moves towards the shepherd if it can see.  The wolf always moves randomly, even it if sees the sheep/shepherd.
